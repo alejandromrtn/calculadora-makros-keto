@@ -54,6 +54,19 @@
         "print (\"proteina\" ,pprotes, \"%\" )\n",
         "print (\"carbohidratos\" ,pcarbs, \"%\")\n",
         "print (\"grasas\" ,pgrasas, \"%\")"
+
+import matplotlib.pyplot as plt
+
+# Datos
+labels = ["Proteínas", "Carbohidratos", "Grasas"]
+valores = [pprotes, pcarbs, pgrasas]
+colores = ["#4CAF50", "#2196F3", "#FF5722"]  # verde, azul, naranja
+
+# Crear gráfico
+plt.figure(figsize=(6,6))
+plt.pie(valores, labels=labels, autopct="%1.1f%%", startangle=90, colors=colores)
+plt.title("Distribución de macronutrientes (%)")
+plt.show()
       ]
     }
   ]
