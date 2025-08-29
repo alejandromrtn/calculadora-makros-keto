@@ -1,0 +1,13 @@
+# Calculadora de Macros Keto
+
+Este proyecto es una **calculadora de macronutrientes** en Python que calcula las calorías totales y el porcentaje de proteínas, carbohidratos y grasas.
+
+## Cómo usarla
+1. Clona el repositorio:
+https://github.com/alejandromrtn/calculadora-makros-keto.git
+2. Abre el notebook `calculadora_macros_keto.ipynb` en [Google Colab](https://colab.research.google.com/) o Jupyter Notebook.
+3. Ejecuta las celdas:
+- Ingresa gramos de proteínas, carbohidratos y grasas.
+- Obtén calorías totales y % de cada macronutriente.
+
+## Ejemplo de uso
